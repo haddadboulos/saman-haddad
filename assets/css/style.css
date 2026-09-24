@@ -561,6 +561,13 @@ h1, h2, h3, h4 {
   transition: var(--transition);
 }
 
+.experience-card.featured-role {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, #ffffff 0%, #f4f6f8 100%);
+  border-left: 4px solid var(--color-accent);
+  box-shadow: var(--shadow-md);
+}
+
 .experience-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow-md);
